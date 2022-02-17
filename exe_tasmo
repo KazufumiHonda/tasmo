@@ -1,0 +1,2 @@
+ruby /home/kize1/local-apps/tasmo/main.rb &
+#wmctrl -r "tasmo" -b add,above
