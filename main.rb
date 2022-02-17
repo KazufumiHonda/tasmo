@@ -1,6 +1,6 @@
 require 'gtk3'
 
-glade_file = '/home/kize1/local-apps/tasmo/tasmo.glade'
+glade_file = __dir__+'/tasmo.glade'
 
 builder = Gtk::Builder.new(file: glade_file)
 
